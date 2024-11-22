@@ -6,6 +6,25 @@
     <title>Marcus's WebSite</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<head>
+    <style>
+        body {
+            animation: fadeInAnimation ease 3s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
 <body>
     <header>
         <h1>Tere tulemast minu veebilehele!</h1>
@@ -18,8 +37,8 @@
         </ul>
     </nav>
     <section id="about">
-        <h2>Minust</h2>
-        <p>Olen õpilane, kes õpib veebiarendust. See on minu esimene veebileht, mis on majutatud GitHub Pages abil!</p>
+        <h2>Veebilehest</h2>
+        <p>See on minu esimene veebileht ja seda on põnev arendada!</p>
     </section>
     <section id="projects">
         <h2>Tähtsad asiad</h2>
