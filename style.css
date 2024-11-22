@@ -3,18 +3,18 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #5e5e5e;
 }
 
 header {
-    background: #233;
-    color: #fff;
+    background: #333;
+    color: #cccccc;
     padding: 1rem 0;
     text-align: center;
 }
 
 nav ul {
-    background: #474;
+    background: #444;
     list-style: none;
     padding: 0;
     text-align: center;
@@ -26,21 +26,21 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #747272;
     padding: 0.5rem 1rem;
     display: inline-block;
     text-decoration: none;
 }
 
 nav ul li a:hover {
-    background: #555;
+    background: #3a3a3a;
 }
 
 section {
     padding: 1rem;
     margin: 1rem auto;
     max-width: 800px;
-    background: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: #292929;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(19, 18, 71, 0.767);
 }
