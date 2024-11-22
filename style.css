@@ -7,11 +7,11 @@ body {
 }
 
 header {
-    background: #001424;
+    background: #082033;
     color: #ffffff;
     padding: 1rem 0;
     text-align: center;
-    text-shadow: 0px 0px 20px rgba(31, 100, 146, 0.555);
+    text-shadow: 0px 0px 20px rgb(31, 100, 146);
 }
 
 nav ul {
