@@ -3,13 +3,17 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #003c08;
+    background-image: url('https://cdn.pixabay.com/photo/2021/11/19/15/21/christmas-6809681_1280.png');
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
 }
 
 header {
     background: #082033;
     color: #ffffff;
     padding: 1rem 0;
+    font-family: 'Lucida Handwriting', 'cursive';
+    font-weight: bold;
     text-align: center;
     text-shadow: 0px 0px 20px rgb(31, 100, 146);
 }
