@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-image: url('https://cdn.pixabay.com/photo/2021/11/19/15/21/christmas-6809681_1280.png');
+    backdrop-filter: blur(2px);
 }
 
 header {
@@ -17,7 +18,7 @@ header {
 }
 
 nav ul {
-    background: #181818;
+    background: #303030;
     list-style: none;
     padding: 0;
     text-align: center;
